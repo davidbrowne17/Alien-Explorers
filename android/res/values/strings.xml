@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alien Explorers</string>
+    <string name="score">Score</string>
+    <string name="disks">Disks</string>
+    <string name="time">Time</string>
+    <string name="playbutton">Play</string>
+    <string name="settingsbutton">Settings</string>
+    <string name="controlsbutton">Controls</string>
+    <string name="menubutton">Main Menu</string>
+    <string name="runcontrols">Press right or left side of screen to run</string>
+    <string name="jumpcontrols">Swipe up to jump</string>
+    <string name="shootcontrols">Double tap to shoot disks</string>
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="240" height="13" tilewidth="64" tileheight="64" infinite="0" nextlayerid="13" nextobjectid="76">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <layer id="2" name="Background" width="240" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3XWwqDMBCFYbOLrqybcP/42gcp1CFDjE56JvJ/MJDSILmckXZZAAAAAAAAAGS2luPnrTG/9T0An+0f23+1ed4c7GrvJM4M2bxKbKl4vwHoOWT0zavtnZ7xiLLr+5W5l2Z8Z2EetezXcpSlf3u1/kPb/UevVd2/7+IXnsfLUYb+/UfmM/bvyHOdqZTUe797bj3j0Ws4c8dXsxGds4jnqO8/Symp93733HrGo9dw5o6vZiM6ZxHPUd9/llL6ALrIKYrAMAAA
+  </data>
+ </layer>
+ <layer id="3" name="Graphics" width="240" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3XAQqDMAyFYb2kN9kZdiNBvJtsRQqlSzV1xTTyfxDQVoeDvFqHAQAAAAAAeDVbP8ADvMe9gF6sWT+m/bkK/RrO03vifD5+NylX2rGa3wRaSvMjzZ314PataWxTL+f9Xlp/asfJPbRi/mJ2wrnmOGbOq6N3vSZv+TVX1zHvaxbsbNYPUHC0J5fmr/h333BX7hbyDUGv2Q3OspVmR8qy9N1durYnLb9FvJb1fsT6/2vrKWp63ro3AAAA8OsDYNoHBMAwAAA=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Ground">
+  <object id="6" x="0" y="640" width="3008" height="192"/>
+  <object id="7" x="2688" y="576" width="320" height="64"/>
+  <object id="8" x="2752" y="512" width="256" height="64"/>
+  <object id="9" x="2816" y="448" width="192" height="64"/>
+  <object id="10" x="3072" y="448" width="128" height="384"/>
+  <object id="11" x="3264" y="448" width="128" height="384"/>
+  <object id="12" x="3456" y="448" width="128" height="384"/>
+  <object id="13" x="3648" y="448" width="1472" height="384"/>
+  <object id="14" x="3840" y="384" width="1280" height="64"/>
+  <object id="15" x="5184" y="576" width="576" height="256"/>
+  <object id="16" x="5888" y="640" width="768" height="192"/>
+  <object id="17" x="6784" y="512" width="1088" height="320"/>
+  <object id="18" x="8064" y="448" width="960" height="384"/>
+  <object id="19" x="9152" y="576" width="4224" height="256"/>
+ </objectgroup>
+ <objectgroup id="5" name="Coin">
+  <object id="21" x="2816" y="384" width="64" height="64"/>
+  <object id="22" x="2944" y="384" width="64" height="64"/>
+  <object id="25" x="3264" y="384" width="64" height="64"/>
+  <object id="26" x="3328" y="384" width="64" height="64"/>
+  <object id="27" x="4096" y="320" width="64" height="64"/>
+  <object id="28" x="4352" y="320" width="64" height="64"/>
+  <object id="29" x="4608" y="320" width="64" height="64"/>
+  <object id="30" x="4864" y="320" width="64" height="64"/>
+  <object id="31" x="4992" y="320" width="64" height="64"/>
+  <object id="32" x="5440" y="512" width="64" height="64"/>
+  <object id="33" x="6272" y="576" width="64" height="64"/>
+  <object id="34" x="7040" y="320" width="64" height="64"/>
+  <object id="35" x="7360" y="320" width="64" height="64"/>
+  <object id="36" x="7680" y="320" width="64" height="64"/>
+  <object id="37" x="8384" y="320" width="64" height="64"/>
+  <object id="38" x="8640" y="256" width="64" height="64"/>
+  <object id="39" x="8704" y="256" width="64" height="64"/>
+  <object id="40" x="9280" y="384" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="6" name="Box">
+  <object id="20" x="9536" y="0" width="640" height="576"/>
+  <object id="42" x="8896" y="384" width="64" height="64"/>
+  <object id="43" x="8512" y="384" width="64" height="64"/>
+  <object id="44" x="8128" y="384" width="64" height="64"/>
+  <object id="45" x="7808" y="448" width="64" height="64"/>
+  <object id="46" x="7616" y="448" width="64" height="64"/>
+  <object id="47" x="7232" y="448" width="64" height="64"/>
+  <object id="48" x="6784" y="448" width="64" height="64"/>
+  <object id="49" x="6592" y="576" width="64" height="64"/>
+  <object id="50" x="6208" y="576" width="64" height="64"/>
+  <object id="51" x="5888" y="576" width="64" height="64"/>
+  <object id="52" x="5696" y="512" width="64" height="64"/>
+  <object id="53" x="5184" y="512" width="64" height="64"/>
+  <object id="54" x="5056" y="320" width="64" height="64"/>
+  <object id="55" x="4672" y="320" width="64" height="64"/>
+  <object id="56" x="4288" y="320" width="64" height="64"/>
+  <object id="57" x="3840" y="320" width="64" height="64"/>
+  <object id="75" x="0" y="0" width="1856" height="640"/>
+ </objectgroup>
+ <objectgroup id="7" name="Brick">
+  <object id="58" x="3456" y="256" width="64" height="64">
+   <properties>
+    <property name="disc" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="AlienEnemy">
+  <object id="59" x="4032" y="320" width="64" height="64"/>
+  <object id="60" x="4800" y="320" width="64" height="64"/>
+  <object id="61" x="6464" y="576" width="64" height="64"/>
+  <object id="62" x="7488" y="448" width="64" height="64"/>
+  <object id="63" x="7680" y="448" width="64" height="64"/>
+  <object id="64" x="8704" y="384" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="9" name="PlayerStart">
+  <object id="74" x="1920" y="576" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="10" name="LevelEnd">
+  <object id="41" x="9472" y="512" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="11" name="SpikeEnemy">
+  <object id="65" x="8256" y="384" width="64" height="64"/>
+  <object id="66" x="6976" y="448" width="64" height="64"/>
+  <object id="67" x="6080" y="576" width="64" height="64"/>
+  <object id="68" x="5312" y="512" width="64" height="64"/>
+  <object id="71" x="4480" y="320" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="12" name="FlyingEnemy">
+  <object id="72" x="6784" y="320" width="64" height="64"/>
+  <object id="73" x="5440" y="320" width="64" height="64"/>
+ </objectgroup>
+</map>

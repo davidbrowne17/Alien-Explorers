@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="240" height="13" tilewidth="64" tileheight="64" infinite="0" nextlayerid="14" nextobjectid="36">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <layer id="2" name="Background" width="240" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3TsQkAIAwEQN3bVZzT1l4IYhpT3ME3CXyVtAYAAAAAAAAAAHcjmK/L/qXr7ITqZpfqgcjv2xT/S97v2xT/S94GlklSJcAwAAA=
+  </data>
+ </layer>
+ <layer id="3" name="Graphics" width="240" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3ToQ0AIBADQNhfsQzrgcFi3hSSu6S+om0NAAAAAAAA/jLTBQCAuJUuAMfo8nrgJr1N8V/q0tsU/6VuA46HISPAMAAA
+  </data>
+ </layer>
+ <objectgroup id="4" name="Ground">
+  <object id="28" x="0" y="640" width="6720" height="192"/>
+ </objectgroup>
+ <objectgroup id="5" name="Coin"/>
+ <objectgroup id="6" name="Box">
+  <object id="29" x="0" y="0" width="2304" height="640"/>
+  <object id="30" x="4992" y="0" width="1728" height="640"/>
+ </objectgroup>
+ <objectgroup id="7" name="Brick">
+  <object id="35" x="2624" y="448" width="64" height="64">
+   <properties>
+    <property name="disc" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="AlienEnemy"/>
+ <objectgroup id="9" name="PlayerStart">
+  <object id="33" x="2368" y="576" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="10" name="LevelEnd">
+  <object id="31" x="4928" y="576" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="11" name="SpikeEnemy"/>
+ <objectgroup id="12" name="FlyingEnemy"/>
+ <objectgroup id="13" name="Boss">
+  <properties>
+   <property name="disc" value=""/>
+  </properties>
+  <object id="34" x="3584" y="576" width="64" height="64"/>
+ </objectgroup>
+</map>
